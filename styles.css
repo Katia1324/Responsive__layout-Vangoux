@@ -37,7 +37,6 @@
   .logo {
     display: flex;
     width: 160px;
-    margin-right: 200px;
   }
 
   .descrtption__header {
@@ -46,6 +45,7 @@
 
   .navigation__header {
     display: block;
+    margin-left: auto;
     width: 540px;
     margin-right: 20px;
   }
