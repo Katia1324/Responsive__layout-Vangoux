@@ -3,7 +3,7 @@
     margin: 0 55px 120px 0;
     @include for-large-up {
         width: 1165px;
-        margin: 0 155px 115px 120px;
+        margin: 115px 0 0 0;
     }
 }
 .features__line {
@@ -34,16 +34,48 @@
 .card__mobile_photo {
     width: 80px;
     height: 80px;
+    @include for-large-up {
+        width: 120px;
+        height: 120px;
+    }
+}
+.card__block {
+    display: flex;
 }
 .feature__card_mobile {
     width: 525px;
     height: 205px;
     margin-bottom: 55px;
+    @include for-large-up {
+        width: 320px;
+        height: 290px;
+        margin: 48px 74px 0 40px;
+    }
+}
+.feature__card_mobile-2 {
+    width: 525px;
+    height: 205px;
+    margin-bottom: 55px;
+    @include for-large-up {
+        width: 320px;
+        height: 290px;
+        margin: 88px 86px 0 0;
+    }
+}
+.feature__card_mobile-3 {
+    width: 525px;
+    height: 205px;
+    margin-bottom: 55px;
+    @include for-large-up {
+        width: 320px;
+        height: 290px;
+        margin: 128px 5px 0 0;
+    }
 }
 .features__subtitle {
     background: #F3F7FF;
-    width: 440px;
-    height: 80px;
+    width: 200px;
+    height: 120px;
 }
 .features__subtitle_text {
     width: 440px;
@@ -54,13 +86,23 @@
     font-size: 20px;
     line-height: 40px;
     display: flex;
-    align-items: center
+    align-items: center;
+    @include for-large-up {
+        width: 160px;
+        height: 80px;
+        margin: 20px;
+        line-height: 30px;
+    }
 }
 .features__description {
     height: 120px;
     display: flex;
+    flex-direction: column;
     background: #FFFFFF;
     box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+    @include for-large-up {
+        height: 170px;
+    }
 }
 .features__description_text {
     font-weight: 400;
@@ -68,4 +110,9 @@
     line-height: 30px;
     display: flex;
     margin: 30px 40px 30px 40px;
+    @include for-large-up {
+        width: 240px;
+        height: 90px;
+        margin: 40px 40px 20px 40px;
+    }
 }
