@@ -1,16 +1,27 @@
 .footer {
     display: flex;
+    background: #FBFBFB;
+    @include  for-large-up {
+        width: 1440px;
+        height: 130px;
+    }    
 }
 .logosollid {
     width: 50px;
     height: 50px;
     margin: 40px 0 40px 40px;
+    @include for-large-up {
+        margin: auto 0 auto 160px;
+    }
 }
 .footer__description {
     width: 200px;
     height: 50px;
     margin: 40px 50px 40px 0;
     background: rgba(25, 104, 252, 0.05);
+    @include for-large-up {
+        margin: auto 70px auto 0;
+    }
 }
 .footer__description_text {
     font-weight: 600;
@@ -20,6 +31,34 @@
     align-items: center;
     text-align: center;
     color: #1968FC;
+    @include for-large-up {
+        display: flex;
+        line-height: 50px;
+    }
+}
+.footer__navigation {
+    display: none;
+    @include for-large-up {
+        display: block;
+        display: flex;
+        margin: auto 50px auto 0;
+    }
+}
+.footer__navigation_list-item {
+    display: none;
+    @include for-large-up {
+        display: block;
+        width: 120px;
+        height: 50px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
 }
 .facebook__block {
     width: 50px;
@@ -39,6 +78,9 @@
     height: 50px;
     display: flex;
     margin: 40px 102px 40px 0;
+    @include for-large-up {
+        margin: auto 80px auto 0;
+    }
 }
 .instagram {
     width: 20px;
@@ -51,6 +93,11 @@
     background: url(Image.png);
     filter: drop-shadow(2px 6px 12px rgba(255, 131, 51, 0.3));
     margin: 70px 40px 0 0;
+    @include for-large-up {
+        width: 90px;
+        height: 100px;
+        margin: 30px 160px 0 0;
+    }
 }
 
 

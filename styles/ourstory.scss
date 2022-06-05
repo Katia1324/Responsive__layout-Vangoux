@@ -1,6 +1,9 @@
 .ourstory {
     width: 520px;
     margin-top: 60px;
+    @include for-large-up {
+        margin: 120px 160px 120px 120px;
+    }
 }
 .ourstory__title {
     width: 520px;
@@ -12,6 +15,9 @@
     align-items: center;
     text-transform: uppercase;
     margin: 0 60px 10px 0;
+    @include for-large-up {
+        margin: 0 0 0 40px;
+    }
 }
 .ourstory__line {
     background: #1968FC;
@@ -19,18 +25,42 @@
     width: 80px;
     height: 2px;
     margin: 0 0 38px 0;
+    @include for-large-up {
+        margin: 10px 0 48px 0;
+    }
 }
 .ourstory__card {
     width: 520px;
     height: 270px;
     margin-bottom: 40px;
+    @include for-large-up {
+        width: 480px;
+        margin: 0 150px 0 0;
+    }
+}
+.ourstory__card_2 {
+    width: 520px;
+    height: 270px;
+    margin-bottom: 40px;
+    @include for-large-up {
+        width: 480px;
+        margin: 0;
+    }
 }
 .outstory__block {
-    display: flex;
+    @include for-large-up {
+        display: flex;
+        margin: 0 10px 0 40px;
+        width: 1110px;  
+    }
 }
 .ourstory__logo {
     display: flex;
     margin-bottom: 20px;
+    @include for-large-up {
+        width: 480px;
+        margin: 0 150px 20px 0;
+    }
 }
 .ourstory__logo_photo {
     width: 40px;
@@ -46,6 +76,9 @@
     line-height: 40px;
     color: #111111;
     margin: 0;
+    @include for-large-up {
+        width: 420px;
+    }
 }
 .ourstory__description_2 {
     width: 460px;
@@ -55,6 +88,10 @@
     font-size: 16px;
     line-height: 30px;
     color: #000000;
+    @include for-large-up {
+        width: 420px;
+        height: 240px;
+    }
 }
 
 

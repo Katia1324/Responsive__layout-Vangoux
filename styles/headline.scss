@@ -84,10 +84,13 @@
     margin: 30px 60px 30px 60px;
 }
 .testim {
+    display: block;
+    @include for-large-up {
     display: flex;
     width: 1120px;
     height: 280px;
     margin: 0 0 120px 0;
+    }
 }
 .testiomon {
     background-color: #FFFFFF;

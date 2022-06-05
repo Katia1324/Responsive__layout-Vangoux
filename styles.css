@@ -222,10 +222,15 @@ body {
 }
 
 .testim {
-  display: flex;
-  width: 1120px;
-  height: 280px;
-  margin: 0 0 120px 0;
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .testim {
+    display: flex;
+    width: 1120px;
+    height: 280px;
+    margin: 0 0 120px 0;
+  }
 }
 
 .testiomon {
@@ -320,13 +325,19 @@ body {
 }
 @media screen and (min-width: 1024px) {
   .work {
-    margin: 0 120px 155px 0;
+    width: 1165px;
+    margin: 0 120px 0 0;
   }
 }
 
 .work__block {
-  display: flex;
-  width: 1165px;
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .work__block {
+    display: flex;
+    width: 1165px;
+  }
 }
 
 .work__title {
@@ -392,7 +403,7 @@ body {
   text-transform: uppercase;
   width: 400px;
   height: 20px;
-  margin: 40px 0 0 40px;
+  margin: 0;
 }
 @media screen and (min-width: 1024px) {
   .step__subtitle {
@@ -402,7 +413,7 @@ body {
 }
 
 .step__title {
-  margin: 0 0 10px 40px;
+  margin: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 40px;
@@ -434,9 +445,16 @@ body {
 }
 
 .step__text {
-  width: 200px;
+  width: 400px;
   height: 60px;
-  margin: 40px 0 0 40px;
+  margin: 40px 0 10px 40px;
+}
+@media screen and (min-width: 1024px) {
+  .step__text {
+    width: 200px;
+    height: 60px;
+    margin: 40px 0 0 40px;
+  }
 }
 
 .work__vertical_line {
@@ -490,7 +508,12 @@ body {
 .icon__work_2 {
   width: 25px;
   height: 25px;
-  margin-left: 300px;
+  margin-left: 500px;
+}
+@media screen and (min-width: 1024px) {
+  .icon__work_2 {
+    margin-left: 300px;
+  }
 }
 
 .features {
@@ -534,6 +557,8 @@ body {
 
 .card__mobile {
   display: flex;
+  width: 520px;
+  height: 80px;
 }
 
 .card__mobile_photo {
@@ -548,7 +573,12 @@ body {
 }
 
 .card__block {
-  display: flex;
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .card__block {
+    display: flex;
+  }
 }
 
 .feature__card_mobile {
@@ -634,7 +664,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   display: flex;
-  margin: 30px 40px 30px 40px;
+  margin: 30px 40px 10px 40px;
 }
 @media screen and (min-width: 1024px) {
   .features__description_text {
@@ -923,7 +953,7 @@ body {
 }
 .build__section_card-4 {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 1024px) {
   .build__section_card-4 {
@@ -1004,7 +1034,7 @@ body {
   align-items: center;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin: 60px 60px 50px 60px;
+  margin: 60px 60px 10px 60px;
 }
 @media screen and (min-width: 1024px) {
   .whiteglove__title {
@@ -1067,6 +1097,11 @@ body {
   width: 520px;
   margin-top: 60px;
 }
+@media screen and (min-width: 1024px) {
+  .ourstory {
+    margin: 120px 160px 120px 120px;
+  }
+}
 
 .ourstory__title {
   width: 520px;
@@ -1079,6 +1114,11 @@ body {
   text-transform: uppercase;
   margin: 0 60px 10px 0;
 }
+@media screen and (min-width: 1024px) {
+  .ourstory__title {
+    margin: 0 0 0 40px;
+  }
+}
 
 .ourstory__line {
   background: #1968FC;
@@ -1087,20 +1127,53 @@ body {
   height: 2px;
   margin: 0 0 38px 0;
 }
+@media screen and (min-width: 1024px) {
+  .ourstory__line {
+    margin: 10px 0 48px 0;
+  }
+}
 
 .ourstory__card {
   width: 520px;
   height: 270px;
   margin-bottom: 40px;
 }
+@media screen and (min-width: 1024px) {
+  .ourstory__card {
+    width: 480px;
+    margin: 0 150px 0 0;
+  }
+}
 
-.outstory__block {
-  display: flex;
+.ourstory__card_2 {
+  width: 520px;
+  height: 270px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1024px) {
+  .ourstory__card_2 {
+    width: 480px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .outstory__block {
+    display: flex;
+    margin: 0 10px 0 40px;
+    width: 1110px;
+  }
 }
 
 .ourstory__logo {
   display: flex;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .ourstory__logo {
+    width: 480px;
+    margin: 0 150px 20px 0;
+  }
 }
 
 .ourstory__logo_photo {
@@ -1119,6 +1192,11 @@ body {
   color: #111111;
   margin: 0;
 }
+@media screen and (min-width: 1024px) {
+  .ourstory__description {
+    width: 420px;
+  }
+}
 
 .ourstory__description_2 {
   width: 460px;
@@ -1129,9 +1207,22 @@ body {
   line-height: 30px;
   color: #000000;
 }
+@media screen and (min-width: 1024px) {
+  .ourstory__description_2 {
+    width: 420px;
+    height: 240px;
+  }
+}
 
 .footer {
   display: flex;
+  background: #FBFBFB;
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    width: 1440px;
+    height: 130px;
+  }
 }
 
 .logosollid {
@@ -1139,12 +1230,22 @@ body {
   height: 50px;
   margin: 40px 0 40px 40px;
 }
+@media screen and (min-width: 1024px) {
+  .logosollid {
+    margin: auto 0 auto 160px;
+  }
+}
 
 .footer__description {
   width: 200px;
   height: 50px;
   margin: 40px 50px 40px 0;
   background: rgba(25, 104, 252, 0.05);
+}
+@media screen and (min-width: 1024px) {
+  .footer__description {
+    margin: auto 70px auto 0;
+  }
 }
 
 .footer__description_text {
@@ -1155,6 +1256,42 @@ body {
   align-items: center;
   text-align: center;
   color: #1968FC;
+}
+@media screen and (min-width: 1024px) {
+  .footer__description_text {
+    display: flex;
+    line-height: 50px;
+  }
+}
+
+.footer__navigation {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .footer__navigation {
+    display: block;
+    display: flex;
+    margin: auto 50px auto 0;
+  }
+}
+
+.footer__navigation_list-item {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .footer__navigation_list-item {
+    display: block;
+    width: 120px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
 }
 
 .facebook__block {
@@ -1178,6 +1315,11 @@ body {
   display: flex;
   margin: 40px 102px 40px 0;
 }
+@media screen and (min-width: 1024px) {
+  .instagram__block {
+    margin: auto 80px auto 0;
+  }
+}
 
 .instagram {
   width: 20px;
@@ -1191,6 +1333,13 @@ body {
   background: url(Image.png);
   filter: drop-shadow(2px 6px 12px rgba(255, 131, 51, 0.3));
   margin: 70px 40px 0 0;
+}
+@media screen and (min-width: 1024px) {
+  .vincent {
+    width: 90px;
+    height: 100px;
+    margin: 30px 160px 0 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
