@@ -2,7 +2,11 @@
   width: 180px;
   height: 50px;
   display: flex;
-  margin: 40px 380px 0 80px;
+  margin: 30px 380px 0 80px;
+}
+
+.logo {
+  display: flex;
 }
 
 .logo__image {
@@ -240,11 +244,11 @@ body {
   margin: 30px 60px 30px 60px;
 }
 
-.testim {
+.reviews {
   display: block;
 }
 @media screen and (min-width: 1024px) {
-  .testim {
+  .reviews {
     display: flex;
     width: 1120px;
     height: 280px;
@@ -252,34 +256,34 @@ body {
   }
 }
 
-.testiomon {
+.review {
   background-color: #FFFFFF;
   width: 540px;
   height: 280px;
   margin: 50px auto;
 }
 @media screen and (min-width: 1024px) {
-  .testiomon {
+  .review {
     margin: 0 40px 0 0;
   }
 }
 
-.testimonial {
+.review__block {
   display: flex;
   position: relative;
 }
 
-.testimonial__photo {
+.review__block_photo {
   width: 100px;
   height: 100px;
   margin: 40px 20px 40px 40px;
 }
 
-.testimonial__text {
+.review__block_text {
   margin: 60px 0;
 }
 
-.testimonial__name {
+.review__block_name {
   width: 280px;
   height: 30px;
   font-weight: 600;
@@ -289,7 +293,7 @@ body {
   align-items: center;
 }
 
-.testimonial__job {
+.review__block_job {
   font-weight: 600;
   font-size: 14px;
   line-height: 30px;
@@ -300,7 +304,7 @@ body {
   opacity: 0.8;
 }
 
-.illustration__quote {
+.review__illustration {
   position: absolute;
   width: 60px;
   height: 46px;
@@ -308,60 +312,60 @@ body {
   left: 440px;
 }
 
-.testimon_2 {
+.rew2 {
   background-color: #FFFFFF;
   width: 540px;
   height: 280px;
   margin: 50px auto;
 }
 @media screen and (min-width: 1024px) {
-  .testimon_2 {
+  .rew2 {
     margin: 0;
   }
 }
 
-.testimonial_2 {
+.review__block_2 {
   display: flex;
   position: relative;
 }
 
-.illustration__quote-2 {
+.review__illustration_2 {
   margin-top: 40px;
   width: 60px;
   height: 46px;
 }
 
-.testimonial__description {
+.review__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   margin: 0 40px 40px 40px;
 }
 
-.work {
+.workflow {
   width: 525px;
   height: 745px;
   margin: 70px 55px 90px 60px;
 }
 @media screen and (min-width: 1024px) {
-  .work {
+  .workflow {
     width: 1165px;
     height: 415px;
     margin: 0 120px 0 0;
   }
 }
 
-.work__block {
+.workflow__block {
   display: block;
 }
 @media screen and (min-width: 1024px) {
-  .work__block {
+  .workflow__block {
     display: flex;
     width: 1165px;
   }
 }
 
-.work__title {
+.workflow__title {
   margin: 0;
   font-weight: 400;
   font-size: 30px;
@@ -371,12 +375,12 @@ body {
   text-transform: uppercase;
 }
 @media screen and (min-width: 1024px) {
-  .work__title {
+  .workflow__title {
     margin: 0 0 0 40px;
   }
 }
 
-.work__line {
+.workflow__line {
   width: 80px;
   height: 2px;
   margin: 10px 500px 48px 0;
@@ -384,38 +388,38 @@ body {
   box-shadow: 0px 2px 0px #D1E1FE;
 }
 
-.step__1 {
+.workflow-step {
   width: 525px;
   height: 185px;
   background: #FFFFFF;
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
 }
 @media screen and (min-width: 1024px) {
-  .step__1 {
+  .workflow-step {
     width: 320px;
     height: 220px;
     margin: 38px 5px 0 40px;
   }
-  .step__1:last-child {
+  .workflow-step:last-child {
     margin: 118px 5px 5px 5px;
   }
 }
 
-.step__1_1 {
+.workflow-step_2 {
   width: 525px;
   height: 185px;
   background: #FFFFFF;
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
 }
 @media screen and (min-width: 1024px) {
-  .step__1_1 {
+  .workflow-step_2 {
     width: 320px;
     height: 220px;
     margin: 78px 5px 0 5px;
   }
 }
 
-.step__subtitle {
+.workflow-step__subtitle {
   font-weight: 700;
   font-size: 12px;
   line-height: 20px;
@@ -424,16 +428,17 @@ body {
   text-transform: uppercase;
   width: 400px;
   height: 20px;
-  margin: 0;
+  margin: 40px 0 0 40px;
 }
 @media screen and (min-width: 1024px) {
-  .step__subtitle {
+  .workflow-step__subtitle {
     margin: 0;
     width: 200px;
+    margin: 40px 0 0 40px;
   }
 }
 
-.step__title {
+.workflow-step__title {
   margin: 0;
   font-weight: 700;
   font-size: 18px;
@@ -442,50 +447,52 @@ body {
   align-items: center;
   text-transform: uppercase;
   color: #1967FA;
+  margin: 0 0 0 40px;
 }
 @media screen and (min-width: 1024px) {
-  .step__title {
+  .workflow-step__title {
     margin: 0;
     width: 200px;
+    margin: 0 0 0 40px;
   }
 }
 
-.step {
+.workflow-step_block {
   display: flex;
 }
 
-.icon__work {
+.workflow__icon {
   width: 40px;
   height: 36px;
   margin-top: 40px;
 }
 @media screen and (min-width: 1024px) {
-  .icon__work {
+  .workflow__icon {
     margin-top: 42px;
   }
 }
 
-.step__text {
+.workflow__text {
   width: 400px;
   height: 60px;
   margin: 40px 0 10px 40px;
 }
 @media screen and (min-width: 1024px) {
-  .step__text {
+  .workflow__text {
     width: 200px;
     height: 60px;
     margin: 40px 0 0 40px;
   }
 }
 
-.work__vertical_line {
+.workflow__vertical_line {
   border-left: 2px dashed #1968FC;
   width: 40px;
   height: 40px;
   margin-left: 59px;
 }
 @media screen and (min-width: 1024px) {
-  .work__vertical_line {
+  .workflow__vertical_line {
     border-top: 2px dashed #1968FC;
     width: 70px;
     height: 1px;
@@ -493,14 +500,14 @@ body {
   }
 }
 
-.work__vertical_line-2 {
+.workflow__vertical_line-2 {
   border-left: 2px dashed #1968FC;
   width: 40px;
   height: 40px;
   margin-left: 59px;
 }
 @media screen and (min-width: 1024px) {
-  .work__vertical_line-2 {
+  .workflow__vertical_line-2 {
     border-top: 2px dashed #1968FC;
     width: 70px;
     height: 1px;
@@ -508,7 +515,7 @@ body {
   }
 }
 
-.step__description {
+.workflow-step__description {
   width: 440px;
   height: 30px;
   font-weight: 400;
@@ -519,27 +526,27 @@ body {
   margin: 0 40px 20px 40px;
 }
 @media screen and (min-width: 1024px) {
-  .step__description {
+  .workflow-step__description {
     margin: 20px 40px 20px 40px;
     width: 240px;
     height: 60px;
   }
 }
 
-.icon__work_2 {
+.workflow__icon_2 {
   width: 25px;
   height: 25px;
   margin-left: 500px;
 }
 @media screen and (min-width: 1024px) {
-  .icon__work_2 {
+  .workflow__icon_2 {
     margin-left: 300px;
   }
 }
 
 .features {
   width: 525px;
-  margin: 0 55px 120px 0;
+  margin: 0 60px 120px 60px;
 }
 @media screen and (min-width: 1024px) {
   .features {
@@ -576,78 +583,90 @@ body {
   }
 }
 
-.card__mobile {
+.feature__card {
   display: flex;
   width: 520px;
   height: 80px;
 }
+@media screen and (min-width: 1024px) {
+  .feature__card {
+    width: 320px;
+    height: 120px;
+  }
+}
 
-.card__mobile_photo {
+.feature__card_photo {
   width: 80px;
   height: 80px;
 }
 @media screen and (min-width: 1024px) {
-  .card__mobile_photo {
+  .feature__card_photo {
     width: 120px;
     height: 120px;
   }
 }
 
-.card__block {
+.features__list {
   display: block;
 }
 @media screen and (min-width: 1024px) {
-  .card__block {
+  .features__list {
     display: flex;
   }
 }
 
-.feature__card_mobile {
+.feature {
   width: 525px;
   height: 205px;
   margin-bottom: 55px;
 }
 @media screen and (min-width: 1024px) {
-  .feature__card_mobile {
+  .feature {
     width: 320px;
     height: 290px;
     margin: 48px 74px 0 40px;
   }
 }
 
-.feature__card_mobile-2 {
+.feature_2 {
   width: 525px;
   height: 205px;
   margin-bottom: 55px;
 }
 @media screen and (min-width: 1024px) {
-  .feature__card_mobile-2 {
+  .feature_2 {
     width: 320px;
     height: 290px;
     margin: 88px 86px 0 0;
   }
 }
 
-.feature__card_mobile-3 {
+.feature_3 {
   width: 525px;
   height: 205px;
   margin-bottom: 55px;
 }
 @media screen and (min-width: 1024px) {
-  .feature__card_mobile-3 {
+  .feature_3 {
     width: 320px;
     height: 290px;
     margin: 128px 5px 0 0;
   }
 }
 
-.features__subtitle {
+.feature__subtitle {
+  width: 440px;
+  height: 80px;
   background: #F3F7FF;
-  width: 200px;
-  height: 120px;
+}
+@media screen and (min-width: 1024px) {
+  .feature__subtitle {
+    width: 200px;
+    height: 120px;
+  }
 }
 
-.features__subtitle_text {
+.feature__subtitle_text {
   width: 440px;
   height: 40px;
   display: flex;
@@ -659,7 +678,7 @@ body {
   align-items: center;
 }
 @media screen and (min-width: 1024px) {
-  .features__subtitle_text {
+  .feature__subtitle_text {
     width: 160px;
     height: 80px;
     margin: 20px;
@@ -667,7 +686,7 @@ body {
   }
 }
 
-.features__description {
+.feature__description {
   height: 120px;
   display: flex;
   flex-direction: column;
@@ -675,12 +694,12 @@ body {
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
 }
 @media screen and (min-width: 1024px) {
-  .features__description {
+  .feature__description {
     height: 170px;
   }
 }
 
-.features__description_text {
+.feature__description_text {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -688,25 +707,25 @@ body {
   margin: 30px 40px 10px 40px;
 }
 @media screen and (min-width: 1024px) {
-  .features__description_text {
+  .feature__description_text {
     width: 240px;
     height: 90px;
     margin: 40px 40px 20px 40px;
   }
 }
 
-.use__case {
+.users {
   width: 550px;
-  margin: 65px 0 100px 0;
+  margin: 65px 60px 100px 60px;
 }
 @media screen and (min-width: 1024px) {
-  .use__case {
+  .users {
     width: 1160px;
     margin: 115px 0 0 0;
   }
 }
 
-.use__case_line {
+.users__line {
   width: 80px;
   height: 2px;
   margin: 10px 0 28px 0;
@@ -714,12 +733,12 @@ body {
   box-shadow: 0px 2px 0px #d1e1fe;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_line {
+  .users__line {
     margin: 10px 0 38px 0;
   }
 }
 
-.use__case_title {
+.users__title {
   font-weight: 400;
   font-size: 30px;
   line-height: 60px;
@@ -728,16 +747,16 @@ body {
   text-transform: uppercase;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_title {
+  .users__title {
     display: none;
   }
 }
 
-.use__case_title-2 {
+.users__title_2 {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_title-2 {
+  .users__title_2 {
     display: block;
     font-size: 30px;
     line-height: 60px;
@@ -748,7 +767,7 @@ body {
   }
 }
 
-.use__case_card {
+.user {
   width: 250px;
   height: 190px;
   margin-right: 20px;
@@ -757,13 +776,13 @@ body {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_card {
+  .user {
     width: 360px;
     height: 160px;
     margin: 0 20px 20px 40px;
   }
 }
-.use__case_card-2 {
+.user_2 {
   width: 250px;
   height: 190px;
   margin-right: 20px;
@@ -772,13 +791,13 @@ body {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_card-2 {
+  .user_2 {
     width: 360px;
     height: 160px;
     margin: 0 20px 20px 0;
   }
 }
-.use__case_card-3 {
+.user_3 {
   width: 250px;
   height: 190px;
   margin-right: 20px;
@@ -787,13 +806,13 @@ body {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_card-3 {
+  .user_3 {
     width: 360px;
     height: 160px;
     margin: 0 0 20px 0;
   }
 }
-.use__case_card-4 {
+.user_4 {
   width: 250px;
   height: 190px;
   margin-right: 20px;
@@ -802,13 +821,13 @@ body {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_card-4 {
+  .user_4 {
     width: 360px;
     height: 160px;
     margin: 0 20px 0 40px;
   }
 }
-.use__case_card-5 {
+.user_5 {
   width: 250px;
   height: 190px;
   margin-right: 20px;
@@ -817,13 +836,13 @@ body {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_card-5 {
+  .user_5 {
     width: 360px;
     height: 160px;
     margin: 0 20px 0 0;
   }
 }
-.use__case_card-6 {
+.user_6 {
   width: 250px;
   height: 190px;
   margin-right: 20px;
@@ -832,20 +851,20 @@ body {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_card-6 {
+  .user_6 {
     width: 360px;
     height: 160px;
     margin: 0;
   }
 }
 
-.use__case_cards {
+.user__block {
   display: flex;
   display: flex;
   flex-wrap: wrap;
 }
 
-.use__case_card-title {
+.user__titles {
   width: 210px;
   height: 40px;
   font-weight: 700;
@@ -858,14 +877,14 @@ body {
   margin: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_card-title {
+  .user__titles {
     width: 320px;
     height: 40px;
     margin: 20px;
   }
 }
 
-.use__case_card-description {
+.user__descriptions {
   width: 210px;
   height: 90px;
   font-style: normal;
@@ -875,24 +894,25 @@ body {
   margin: 0 20px 20px 20px;
 }
 @media screen and (min-width: 1024px) {
-  .use__case_card-description {
+  .user__descriptions {
     width: 320px;
     height: 60px;
     margin: 20px;
   }
 }
 
-.build__section {
+.purposes {
   width: 520px;
+  margin: 0 60px;
 }
 @media screen and (min-width: 1024px) {
-  .build__section {
+  .purposes {
     margin: 120px 0;
     width: 1160px;
   }
 }
 
-.build__section_line {
+.purposes__line {
   background: #1968FC;
   box-shadow: 0px 2px 0px #D1E1FE;
   width: 80px;
@@ -901,17 +921,19 @@ body {
   margin-bottom: 38px;
 }
 @media screen and (min-width: 1024px) {
-  .build__section_line {
+  .purposes__line {
     margin: 10px 0 38px 0;
   }
 }
 
-.build__block {
-  display: flex;
-  flex-wrap: wrap;
+@media screen and (min-width: 1024px) {
+  .purposes__block {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
-.build__section_title {
+.purposes__title {
   width: 520px;
   height: 120px;
   font-weight: 400;
@@ -923,16 +945,16 @@ body {
   margin-bottom: 10px;
 }
 @media screen and (min-width: 1024px) {
-  .build__section_title {
+  .purposes__title {
     display: none;
   }
 }
 
-.build__section_title-2 {
+.purposes__title_2 {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  .build__section_title-2 {
+  .purposes__title_2 {
     width: 520px;
     height: 120px;
     font-weight: 400;
@@ -941,48 +963,48 @@ body {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin: 0 0 10px 40px;
   }
 }
 
-.build__section_card {
+.purpose {
   display: flex;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1024px) {
-  .build__section_card {
+  .purpose {
     margin: 0 40px 40px 40px;
   }
 }
-.build__section_card-2 {
+.purpose_2 {
   display: flex;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1024px) {
-  .build__section_card-2 {
+  .purpose_2 {
     margin: 0 0 40px 0;
   }
 }
-.build__section_card-3 {
+.purpose_3 {
   display: flex;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1024px) {
-  .build__section_card-3 {
+  .purpose_3 {
     margin: 0 40px 0 40px;
   }
 }
-.build__section_card-4 {
+.purpose_4 {
   display: flex;
   margin-bottom: 60px;
 }
 @media screen and (min-width: 1024px) {
-  .build__section_card-4 {
+  .purpose_4 {
     margin: 0 0 40px 0;
   }
 }
 
-.build__section_description {
+.purpose__description {
   width: 440px;
   height: 80px;
   display: flex;
@@ -990,12 +1012,12 @@ body {
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
 }
 @media screen and (min-width: 1024px) {
-  .build__section_description {
+  .purpose__description {
     width: 460px;
   }
 }
 
-.build__section_description-text {
+.purpose__description_text {
   font-weight: 600;
   font-size: 18px;
   line-height: 40px;
@@ -1007,22 +1029,21 @@ body {
   margin: 20px;
 }
 
-.build__section_card-photo {
+.purpose__photo {
   width: 80px;
   height: 80px;
 }
 
-.whiteglove {
+.consultation {
   width: 640px;
   background: #1968FC;
   margin: 0;
   padding: 0;
-  margin-left: -60px;
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 1024px) {
-  .whiteglove {
+  .consultation {
     display: flex;
     flex-direction: row;
     width: 1440px;
@@ -1031,11 +1052,11 @@ body {
   }
 }
 
-.whiteglowe__photo {
+.consultation__photo {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  .whiteglowe__photo {
+  .consultation__photo {
     display: block;
     width: 599px;
     height: 546px;
@@ -1045,7 +1066,7 @@ body {
   }
 }
 
-.whiteglove__title {
+.consultation__title {
   width: 520px;
   height: 120px;
   font-weight: 700;
@@ -1058,14 +1079,14 @@ body {
   margin: 60px 60px 10px 60px;
 }
 @media screen and (min-width: 1024px) {
-  .whiteglove__title {
+  .consultation__title {
     width: 680px;
     height: 60px;
-    margin: 80px 0 10px 160px;
+    margin: 80px 0 10px 40px;
   }
 }
 
-.whiteglove__line {
+.consultation__line {
   background: #FFFFFF;
   box-shadow: 0px 2px 0px #6A9EFF;
   width: 80px;
@@ -1073,12 +1094,12 @@ body {
   margin: 0 0 38px 60px;
 }
 @media screen and (min-width: 1024px) {
-  .whiteglove__line {
-    margin: 0 0 48px 120px;
+  .consultation__line {
+    margin: 0 0 48px 0;
   }
 }
 
-.whiteglove_description {
+.consultation__description {
   width: 520px;
   height: 80px;
   margin: 0 60px 40px 60px;
@@ -1090,12 +1111,12 @@ body {
   color: #FFFFFF;
 }
 @media screen and (min-width: 1024px) {
-  .whiteglove_description {
-    margin: 0 0 40px 160px;
+  .consultation__description {
+    margin: 0 0 40px 40px;
   }
 }
 
-.whiteglove__button {
+.consultation__button {
   width: 320px;
   height: 50px;
   margin: 0 260px 60px 60px;
@@ -1109,22 +1130,25 @@ body {
   color: #1968FC;
 }
 @media screen and (min-width: 1024px) {
-  .whiteglove__button {
-    margin: 0 0 80px 160px;
+  .consultation__button {
+    margin: 0 0 80px 40px;
   }
 }
 
-.ourstory {
+.stories {
   width: 520px;
-  margin-top: 60px;
+  height: 719px;
+  margin: 60px 60px 0 60px;
 }
 @media screen and (min-width: 1024px) {
-  .ourstory {
-    margin: 120px 160px 120px 120px;
+  .stories {
+    width: 1160px;
+    height: 420px;
+    margin: 120px 0;
   }
 }
 
-.ourstory__title {
+.stories__title {
   width: 520px;
   height: 60px;
   font-weight: 400;
@@ -1136,12 +1160,12 @@ body {
   margin: 0 60px 10px 0;
 }
 @media screen and (min-width: 1024px) {
-  .ourstory__title {
+  .stories__title {
     margin: 0 0 0 40px;
   }
 }
 
-.ourstory__line {
+.stories__line {
   background: #1968FC;
   box-shadow: 0px 2px 0px #D1E1FE;
   width: 80px;
@@ -1149,61 +1173,61 @@ body {
   margin: 0 0 38px 0;
 }
 @media screen and (min-width: 1024px) {
-  .ourstory__line {
+  .stories__line {
     margin: 10px 0 48px 0;
   }
 }
 
-.ourstory__card {
+.story__card {
   width: 520px;
   height: 270px;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1024px) {
-  .ourstory__card {
+  .story__card {
     width: 480px;
     margin: 0 150px 0 0;
   }
 }
 
-.ourstory__card_2 {
+.story__card_2 {
   width: 520px;
   height: 270px;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1024px) {
-  .ourstory__card_2 {
+  .story__card_2 {
     width: 480px;
     margin: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .outstory__block {
+  .stories__block {
     display: flex;
     margin: 0 10px 0 40px;
     width: 1110px;
   }
 }
 
-.ourstory__logo {
+.story__logo {
   display: flex;
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1024px) {
-  .ourstory__logo {
+  .story__logo {
     width: 480px;
     margin: 0 150px 20px 0;
   }
 }
 
-.ourstory__logo_photo {
+.story__logo_photo {
   width: 40px;
   height: 33px;
   margin: 4px 20px 0 0;
 }
 
-.ourstory__description {
+.story__description {
   width: 460px;
   height: 40px;
   align-items: center;
@@ -1214,12 +1238,12 @@ body {
   margin: 0;
 }
 @media screen and (min-width: 1024px) {
-  .ourstory__description {
+  .story__description {
     width: 420px;
   }
 }
 
-.ourstory__description_2 {
+.story__description_2 {
   width: 460px;
   height: 210px;
   margin: 0 0 0 60px;
@@ -1229,18 +1253,21 @@ body {
   color: #000000;
 }
 @media screen and (min-width: 1024px) {
-  .ourstory__description_2 {
+  .story__description_2 {
     width: 420px;
     height: 240px;
   }
 }
 
-.footer {
+.page-footer {
   display: flex;
+  width: 640px;
+  height: 130px;
+  margin: 0 0 90px 0;
   background: #FBFBFB;
 }
 @media screen and (min-width: 1024px) {
-  .footer {
+  .page-footer {
     width: 1440px;
     height: 130px;
   }
@@ -1249,23 +1276,40 @@ body {
 .logosollid {
   width: 50px;
   height: 50px;
-  margin: 40px 0 40px 40px;
+  margin: 0;
 }
 @media screen and (min-width: 1024px) {
   .logosollid {
-    margin: auto 0 auto 160px;
+    margin: auto 0;
+  }
+}
+
+.footer-logo {
+  display: flex;
+  margin: auto;
+}
+@media screen and (min-width: 1024px) {
+  .footer-logo {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    margin: auto 70px auto 0;
   }
 }
 
 .footer__description {
   width: 200px;
+  display: flex;
   height: 50px;
-  margin: 40px 50px 40px 0;
+  margin: 0;
   background: rgba(25, 104, 252, 0.05);
 }
 @media screen and (min-width: 1024px) {
   .footer__description {
-    margin: auto 70px auto 0;
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: auto 0;
   }
 }
 
@@ -1273,14 +1317,14 @@ body {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  margin: 0 auto;
+  margin: auto;
   color: #1968FC;
 }
 @media screen and (min-width: 1024px) {
   .footer__description_text {
     display: flex;
+    justify-content: center;
     line-height: 50px;
   }
 }

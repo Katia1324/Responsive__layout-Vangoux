@@ -1,4 +1,4 @@
-.work {
+.workflow {
     width: 525px;
     height: 745px;
     margin: 70px 55px 90px 60px;
@@ -8,14 +8,14 @@
         margin: 0 120px 0 0;
     }
 }
-.work__block {
+.workflow__block {
     display: block;
     @include for-large-up {
     display: flex;
     width: 1165px ;
     }
 }
-.work__title {
+.workflow__title {
     margin: 0;
     font-weight: 400;
     font-size: 30px;
@@ -27,14 +27,14 @@
         margin: 0 0 0 40px;
     }
 }
-.work__line {
+.workflow__line {
     width: 80px;
     height: 2px;
     margin: 10px 500px 48px 0;
     background: #1968FC;
     box-shadow: 0px 2px 0px #D1E1FE;
 }
-.step__1 {
+.workflow-step {
     width: 525px;
     height: 185px;
     background: #FFFFFF;
@@ -49,7 +49,7 @@
         }
     }
 }
-.step__1_1 {
+.workflow-step_2 {
     width: 525px;
     height: 185px;
     background: #FFFFFF;
@@ -60,7 +60,7 @@
         margin: 78px 5px 0 5px;
     }
 }
-.step__subtitle {
+.workflow-step__subtitle {
     font-weight: 700;
     font-size: 12px;
     line-height: 20px;
@@ -69,13 +69,14 @@
     text-transform: uppercase;
     width: 400px;
     height: 20px;
-    margin: 0;
+    margin: 40px 0 0 40px;
     @include for-large-up {
         margin: 0;
         width: 200px;
+        margin: 40px 0 0 40px;
     }
 }
-.step__title {
+.workflow-step__title {
     margin: 0;
     font-weight: 700;
     font-size: 18px;
@@ -84,15 +85,17 @@
     align-items: center;
     text-transform: uppercase;
     color: #1967FA;
+    margin: 0 0 0 40px;
     @include for-large-up {
         margin: 0;
         width: 200px;
+        margin: 0 0 0 40px;
     }
 }
-.step {
+.workflow-step_block {
     display: flex;
 }
-.icon__work {
+.workflow__icon {
     width: 40px;
     height: 36px;
     margin-top: 40px;
@@ -100,7 +103,7 @@
         margin-top: 42px;         
     }
 }
-.step__text {
+.workflow__text {
     width: 400px;
     height: 60px;
     margin: 40px 0 10px 40px;
@@ -110,7 +113,7 @@
     margin: 40px 0 0 40px;
     }
 }
-.work__vertical_line {
+.workflow__vertical_line {
     border-left: 2px dashed #1968FC;
     width: 40px;
     height: 40px;
@@ -122,7 +125,7 @@
         margin: 148px 0 0 0;
     }
 }
-.work__vertical_line-2 {
+.workflow__vertical_line-2 {
     border-left: 2px dashed #1968FC;
     width: 40px;
     height: 40px;
@@ -134,7 +137,7 @@
         margin: 187px 0 0 0;
     }
 }
-.step__description {
+.workflow-step__description {
     width: 440px;
     height: 30px;
     font-weight: 400;
@@ -149,7 +152,7 @@
         height: 60px;
     }
 }
-.icon__work_2 {
+.workflow__icon_2 {
     width: 25px;    
     height: 25px;
     margin-left: 500px;

@@ -1,11 +1,12 @@
-.build__section {
+.purposes {
     width: 520px;
+    margin: 0 60px;
     @include for-large-up {
         margin: 120px 0;
         width: 1160px;
     }
 }
-.build__section_line {
+.purposes__line {
     background: #1968FC;
     box-shadow: 0px 2px 0px #D1E1FE;
     width: 80px;
@@ -16,11 +17,13 @@
         margin: 10px 0 38px 0;
     }
 }
-.build__block {
+.purposes__block {
+    @include for-large-up {
     display: flex;
     flex-wrap: wrap;
+    }
 }
-.build__section_title {
+.purposes__title {
     width: 520px;
     height: 120px;
     font-weight: 400;
@@ -34,7 +37,7 @@
         display: none;
     }
 }
-.build__section_title-2 {
+.purposes__title_2 {
     display: none;
     @include for-large-up {
         width: 520px;
@@ -45,30 +48,30 @@
         display: flex;
         align-items: center;
         text-transform: uppercase;
-        margin-bottom: 10px;    
+        margin: 0 0 10px 40px;    
     }
 }
-.build__section_card {
+.purpose {
     display: flex;
     margin-bottom: 40px;
     @include for-large-up {
         margin: 0 40px 40px 40px;
     }
-    &-2 {
+    &_2 {
         display: flex;
         margin-bottom: 40px;
         @include for-large-up {
             margin: 0 0 40px 0;
     }
     }
-    &-3 {
+    &_3 {
         display: flex;
         margin-bottom: 40px;
         @include for-large-up {
             margin: 0 40px 0 40px;
     }
     }
-    &-4 {
+    &_4 {
         display: flex;
         margin-bottom: 60px;
         @include for-large-up {
@@ -76,7 +79,7 @@
     }
     }
 }
-.build__section_description {
+.purpose__description {
     width: 440px;
     height: 80px;
     display: flex;
@@ -86,7 +89,7 @@
         width: 460px;
     }
 }
-.build__section_description-text {
+.purpose__description_text {
     font-weight: 600;
     font-size: 18px;
     line-height: 40px;
@@ -97,7 +100,7 @@
     height: 40px;
     margin: 20px;
 }
-.build__section_card-photo {
+.purpose__photo {
     width: 80px;
     height: 80px;
 }

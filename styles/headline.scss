@@ -83,7 +83,7 @@
     height: 120px;
     margin: 30px 60px 30px 60px;
 }
-.testim {
+.reviews {
     display: block;
     @include for-large-up {
     display: flex;
@@ -92,7 +92,7 @@
     margin: 0 0 120px 0;
     }
 }
-.testiomon {
+.review {
     background-color: #FFFFFF;
     width: 540px;
     height: 280px;
@@ -101,19 +101,19 @@
         margin: 0 40px 0 0;
     }
 }
-.testimonial {
+.review__block {
     display: flex;
     position: relative;
 }
-.testimonial__photo {
+.review__block_photo {
     width: 100px;
     height: 100px;
     margin: 40px 20px 40px 40px;
 }
-.testimonial__text {
+.review__block_text {
     margin: 60px 0;
 }
-.testimonial__name {
+.review__block_name {
     width: 280px;
     height: 30px;
     font-weight: 600;
@@ -122,7 +122,7 @@
     display: flex;
     align-items: center;
 }
-.testimonial__job {
+.review__block_job {
     font-weight: 600;
     font-size: 14px;
     line-height: 30px;
@@ -132,14 +132,14 @@
     mix-blend-mode: normal;
     opacity: 0.8;
 }
-.illustration__quote {
+.review__illustration {
     position: absolute;
     width: 60px;
     height: 46px;
     top: 40px;
     left: 440px    
 }
-.testimon_2 {
+.rew2 {
     background-color: #FFFFFF;
     width: 540px;
     height: 280px;
@@ -148,16 +148,16 @@
         margin: 0;
     }
 }
-.testimonial_2 {
+.review__block_2 {
     display: flex;
     position: relative;
 }
-.illustration__quote-2 {
+.review__illustration_2 {
     margin-top: 40px;
     width: 60px;
     height: 46px;
 }
-.testimonial__description {
+.review__description {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;

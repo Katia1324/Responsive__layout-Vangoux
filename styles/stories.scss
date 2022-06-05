@@ -1,11 +1,14 @@
-.ourstory {
+.stories {
     width: 520px;
-    margin-top: 60px;
+    height: 719px;
+    margin: 60px 60px 0 60px;
     @include for-large-up {
-        margin: 120px 160px 120px 120px;
+        width: 1160px;
+        height: 420px;
+        margin: 120px 0;
     }
 }
-.ourstory__title {
+.stories__title {
     width: 520px;
     height: 60px;
     font-weight: 400;
@@ -19,7 +22,7 @@
         margin: 0 0 0 40px;
     }
 }
-.ourstory__line {
+.stories__line {
     background: #1968FC;
     box-shadow: 0px 2px 0px #D1E1FE;
     width: 80px;
@@ -29,7 +32,7 @@
         margin: 10px 0 48px 0;
     }
 }
-.ourstory__card {
+.story__card {
     width: 520px;
     height: 270px;
     margin-bottom: 40px;
@@ -38,7 +41,7 @@
         margin: 0 150px 0 0;
     }
 }
-.ourstory__card_2 {
+.story__card_2 {
     width: 520px;
     height: 270px;
     margin-bottom: 40px;
@@ -47,14 +50,14 @@
         margin: 0;
     }
 }
-.outstory__block {
+.stories__block {
     @include for-large-up {
         display: flex;
         margin: 0 10px 0 40px;
         width: 1110px;  
     }
 }
-.ourstory__logo {
+.story__logo {
     display: flex;
     margin-bottom: 20px;
     @include for-large-up {
@@ -62,12 +65,12 @@
         margin: 0 150px 20px 0;
     }
 }
-.ourstory__logo_photo {
+.story__logo_photo {
     width: 40px;
     height: 33px;
     margin: 4px 20px 0 0;
 }
-.ourstory__description {
+.story__description {
     width: 460px;
     height: 40px;
     align-items: center;
@@ -80,7 +83,7 @@
         width: 420px;
     }
 }
-.ourstory__description_2 {
+.story__description_2 {
     width: 460px;
     height: 210px;
     margin: 0 0 0 60px;

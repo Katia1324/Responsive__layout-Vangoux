@@ -1,5 +1,8 @@
-.footer {
+.page-footer {
     display: flex;
+    width: 640px;
+    height: 130px;
+    margin: 0 0 90px 0;
     background: #FBFBFB;
     @include  for-large-up {
         width: 1440px;
@@ -9,30 +12,45 @@
 .logosollid {
     width: 50px;
     height: 50px;
-    margin: 40px 0 40px 40px;
+    margin: 0;
     @include for-large-up {
-        margin: auto 0 auto 160px;
+        margin: auto 0 ;
     }
+}
+.footer-logo {
+    display: flex;
+    margin: auto;
+    @include for-large-up {
+      display: flex;
+    width: 300px;
+    height: 50px;
+    margin: auto 70px auto 0;  
+    }
+    
 }
 .footer__description {
     width: 200px;
+    display: flex;
     height: 50px;
-    margin: 40px 50px 40px 0;
+    margin: 0;
     background: rgba(25, 104, 252, 0.05);
     @include for-large-up {
-        margin: auto 70px auto 0;
+        width: 200px;
+        height: 50px;
+        display: block;
+        margin: auto 0;
     }
 }
 .footer__description_text {
     font-weight: 600;
     font-size: 14px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 20px; 
+    margin: 0 auto;
+    margin: auto;
     color: #1968FC;
     @include for-large-up {
         display: flex;
+        justify-content: center;
         line-height: 50px;
     }
 }

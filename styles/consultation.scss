@@ -1,9 +1,8 @@
-.whiteglove {
+.consultation {
     width: 640px;
     background: #1968FC;
     margin: 0;
     padding: 0;
-    margin-left: -60px;
     display: flex;
     flex-direction: column;
     @include for-large-up {
@@ -14,7 +13,7 @@
         position: relative;
     }
 }
-.whiteglowe__photo {
+.consultation__photo {
     display: none;
     @include for-large-up {
         display: block;
@@ -25,7 +24,7 @@
         position: absolute;
     }
 }
-.whiteglove__title {
+.consultation__title {
     width: 520px;
     height: 120px;
     font-weight: 700;
@@ -39,20 +38,20 @@
     @include for-large-up {
         width: 680px;
         height: 60px;
-        margin: 80px 0 10px 160px;
+        margin: 80px 0 10px 40px;
     }
 }
-.whiteglove__line {
+.consultation__line {
     background: #FFFFFF;
     box-shadow: 0px 2px 0px #6A9EFF;
     width: 80px;
     height: 2px;
     margin: 0 0 38px 60px;
     @include for-large-up {
-        margin: 0 0 48px 120px;
+        margin: 0 0 48px 0;
     }
 }
-.whiteglove_description {
+.consultation__description {
     width: 520px;
     height: 80px;
     margin: 0 60px 40px 60px;
@@ -63,10 +62,10 @@
     align-items: center;
     color: #FFFFFF;
     @include for-large-up {
-        margin:  0 0 40px 160px;
+        margin:  0 0 40px 40px;
     }
 }
-.whiteglove__button {
+.consultation__button {
     width: 320px;
     height: 50px;
     margin: 0 260px 60px 60px;
@@ -79,7 +78,7 @@
     text-transform: uppercase;
     color: #1968FC;
     @include for-large-up {
-        margin: 0 0 80px 160px;
+        margin: 0 0 80px 40px;
     }
 }
 
