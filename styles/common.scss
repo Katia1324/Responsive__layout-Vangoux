@@ -13,7 +13,9 @@ body {
   color: #11223f;
  
   @include for-large-up {
-      width: 100%;
+      width: 1024px;
+      display: flex;
+      margin: auto;
       background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png");
       background-repeat: no-repeat;
   }
