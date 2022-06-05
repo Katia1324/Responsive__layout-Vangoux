@@ -1,0 +1,16 @@
+$lg: 1024px;
+
+@mixin for-large-up {
+    @media screen and (min-width: $lg) {
+        @content;
+    }
+}
+
+@media screen and (min-width: 641px) {
+  .page {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}

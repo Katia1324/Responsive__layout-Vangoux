@@ -1,0 +1,53 @@
+.whiteglove {
+    width: 640px;
+    background: #1968FC;
+    margin: 0;
+    padding: 0;
+    margin-left: -60px;
+    display: flex;
+    flex-direction: column;
+}
+.whiteglove__title {
+    width: 520px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 60px 60px 50px 60px;
+}
+.whiteglove__line {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px #6A9EFF;
+    width: 80px;
+    height: 2px;
+    margin: 0 0 38px 60px;
+}
+.whiteglove_description {
+    width: 520px;
+    height: 80px;
+    margin: 0 60px 40px 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.whiteglove__button {
+    width: 320px;
+    height: 50px;
+    margin: 0 260px 60px 60px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1968FC;
+}
+
