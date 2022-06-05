@@ -1,8 +1,10 @@
 .work {
     width: 525px;
+    height: 745px;
     margin: 70px 55px 90px 60px;
     @include for-large-up {
         width: 1165px;
+        height: 415px;
         margin: 0 120px 0 0;
     }
 }
