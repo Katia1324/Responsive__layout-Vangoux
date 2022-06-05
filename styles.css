@@ -36,11 +36,12 @@
 
   .logo {
     display: flex;
+    width: 180px;
+    margin-right: 200px;
   }
 
   .descrtption__header {
     width: 100px;
-    margin-right: 220px;
   }
 
   .navigation__header {
