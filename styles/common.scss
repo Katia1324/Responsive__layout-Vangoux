@@ -9,13 +9,11 @@
 body {
   font-family: 'Mulish';
   font-style: normal;
-  width: 640px;
+  width: 100%;
   color: #11223f;
  
   @include for-large-up {
-      width: 1440px;
-      margin-left: 160px;
-      margin-right: 160px;
+      width: 100%;
       background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png");
       background-repeat: no-repeat;
   }
