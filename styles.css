@@ -1178,25 +1178,25 @@ body {
   }
 }
 
-.story__card {
+.story-card {
   width: 520px;
   height: 270px;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1024px) {
-  .story__card {
+  .story-card {
     width: 480px;
     margin: 0 150px 0 0;
   }
 }
 
-.story__card_2 {
+.story-card_2 {
   width: 520px;
   height: 270px;
   margin-bottom: 40px;
 }
 @media screen and (min-width: 1024px) {
-  .story__card_2 {
+  .story-card_2 {
     width: 480px;
     margin: 0;
   }
