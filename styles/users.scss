@@ -1,42 +1,47 @@
 .users {
   width: 550px;
   margin: 65px 60px 100px 60px;
+
   @include for-large-up {
     width: 1160px;
     margin: 115px 0 0 0;
   }
-}
-.users__line {
-  width: 80px;
-  height: 2px;
-  margin: 10px 0 28px 0;
-  background: #1968fc;
-  box-shadow: 0px 2px 0px #d1e1fe;
-  @include for-large-up {
-    margin: 10px 0 38px 0;
+
+  &__line {
+    width: 80px;
+    height: 2px;
+    margin: 10px 0 28px 0;
+    background: #1968fc;
+    box-shadow: 0px 2px 0px #d1e1fe;
+
+    @include for-large-up {
+      margin: 10px 0 38px 0;
+    }
   }
-}
-.users__title {
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  @include for-large-up {
-    display: none;
-  }
-}
-.users__title_2 {
-  display: none;
-  @include for-large-up {
-    display: block;
+  &__title {
+    font-weight: 400;
     font-size: 30px;
     line-height: 60px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    margin: 0 0 0 40px;
+
+    @include for-large-up {
+      display: none;
+    }
+  }
+  &__title_2 {
+    display: none;
+
+    @include for-large-up {
+      display: block;
+      font-size: 30px;
+      line-height: 60px;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      margin: 0 0 0 40px;
+    }
   }
 }
 .user {
@@ -46,11 +51,13 @@
   background: #ffffff;
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
   margin-bottom: 20px;
+
   @include for-large-up {
     width: 360px;
     height: 160px;
     margin: 0 20px 20px 40px;
   }
+
   &_2 {
     width: 250px;
     height: 190px;
@@ -58,12 +65,14 @@
     background: #ffffff;
     box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
     margin-bottom: 20px;
+
     @include for-large-up {
       width: 360px;
       height: 160px;
       margin: 0 20px 20px 0;
     }
   }
+
   &_3 {
     width: 250px;
     height: 190px;
@@ -71,12 +80,14 @@
     background: #ffffff;
     box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
     margin-bottom: 20px;
+
     @include for-large-up {
       width: 360px;
       height: 160px;
       margin: 0 0 20px 0;
     }
   }
+
   &_4 {
     width: 250px;
     height: 190px;
@@ -84,12 +95,14 @@
     background: #ffffff;
     box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
     margin-bottom: 20px;
+
     @include for-large-up {
       width: 360px;
       height: 160px;
       margin: 0 20px 0 40px;
     }
   }
+
   &_5 {
     width: 250px;
     height: 190px;
@@ -97,12 +110,14 @@
     background: #ffffff;
     box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
     margin-bottom: 20px;
+
     @include for-large-up {
       width: 360px;
       height: 160px;
       margin: 0 20px 0 0;
     }
   }
+
   &_6 {
     width: 250px;
     height: 190px;
@@ -110,47 +125,52 @@
     background: #ffffff;
     box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
     margin-bottom: 20px;
+
     @include for-large-up {
       width: 360px;
       height: 160px;
-      margin: 0 ;
+      margin: 0;
     }
   }
-}
 
-.user__block {
-  display: flex;
-  display: flex;
-  flex-wrap: wrap;
-}
-.user__titles {
-  width: 210px;
-  height: 40px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 40px;
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  color: #1967fa;
-  margin: 20px;
-  @include for-large-up {
+  &__block {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__titles {
+    width: 210px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #1967fa;
+    margin: 20px;
+
+    @include for-large-up {
       width: 320px;
       height: 40px;
       margin: 20px;
+    }
   }
-}
-.user__descriptions {
-  width: 210px;
-  height: 90px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin: 0 20px 20px 20px;
-  @include for-large-up {
+
+  &__descriptions {
+    width: 210px;
+    height: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 20px 20px 20px;
+
+    @include for-large-up {
       width: 320px;
       height: 60px;
       margin: 20px;
     }
+  }
 }

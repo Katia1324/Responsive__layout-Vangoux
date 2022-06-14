@@ -1,21 +1,24 @@
 .workflow {
-    width: 525px;
-    height: 745px;
-    margin: 70px 55px 90px 60px;
-    @include for-large-up {
-        width: 1165px;
-        height: 415px;
-        margin: 0 120px 0 0;
-    }
-}
-.workflow__block {
+  width: 525px;
+  height: 745px;
+  margin: 70px 55px 90px 60px;
+
+  @include for-large-up {
+    width: 1165px;
+    height: 415px;
+    margin: 0 120px 0 0;
+  }
+
+  &__block {
     display: block;
+
     @include for-large-up {
-    display: flex;
-    width: 1165px ;
+      display: flex;
+      width: 1165px;
     }
-}
-.workflow__title {
+  }
+
+  &__title {
     margin: 0;
     font-weight: 400;
     font-size: 30px;
@@ -23,44 +26,50 @@
     display: flex;
     align-items: center;
     text-transform: uppercase;
+
     @include for-large-up {
-        margin: 0 0 0 40px;
+      margin: 0 0 0 40px;
     }
-}
-.workflow__line {
+  }
+
+  &__line {
     width: 80px;
     height: 2px;
     margin: 10px 500px 48px 0;
-    background: #1968FC;
-    box-shadow: 0px 2px 0px #D1E1FE;
-}
-.workflow-step {
-    width: 525px;
-    height: 185px;
-    background: #FFFFFF;
-    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
-    @include for-large-up {
-        width: 320px;
-        height: 220px;
-        margin: 38px 5px 0 40px;
-        &:last-child {
-            margin: 118px 5px 5px 5px;
+    background: #1968fc;
+    box-shadow: 0px 2px 0px #d1e1fe;
+  }
 
-        }
-    }
-}
-.workflow-step_2 {
+  &-step {
     width: 525px;
     height: 185px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+
     @include for-large-up {
-        width: 320px;
-        height: 220px;
-        margin: 78px 5px 0 5px;
+      width: 320px;
+      height: 220px;
+      margin: 38px 5px 0 40px;
+      &:last-child {
+        margin: 118px 5px 5px 5px;
+      }
     }
-}
-.workflow-step__subtitle {
+  }
+
+  &-step_2 {
+    width: 525px;
+    height: 185px;
+    background: #ffffff;
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+
+    @include for-large-up {
+      width: 320px;
+      height: 220px;
+      margin: 78px 5px 0 5px;
+    }
+  }
+
+  &-step__subtitle {
     font-weight: 700;
     font-size: 12px;
     line-height: 20px;
@@ -70,13 +79,15 @@
     width: 400px;
     height: 20px;
     margin: 40px 0 0 40px;
+
     @include for-large-up {
-        margin: 0;
-        width: 200px;
-        margin: 40px 0 0 40px;
+      margin: 0;
+      width: 200px;
+      margin: 40px 0 0 40px;
     }
-}
-.workflow-step__title {
+  }
+
+  &-step__title {
     margin: 0;
     font-weight: 700;
     font-size: 18px;
@@ -84,60 +95,71 @@
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    color: #1967FA;
+    color: #1967fa;
     margin: 0 0 0 40px;
+
     @include for-large-up {
-        margin: 0;
-        width: 200px;
-        margin: 0 0 0 40px;
+      margin: 0;
+      width: 200px;
+      margin: 0 0 0 40px;
     }
-}
-.workflow-step_block {
+  }
+
+  &-step_block {
     display: flex;
-}
-.workflow__icon {
+  }
+
+  &__icon {
     width: 40px;
     height: 36px;
     margin-top: 40px;
+
     @include for-large-up {
-        margin-top: 42px;         
+      margin-top: 42px;
     }
-}
-.workflow__text {
+  }
+
+  &__text {
     width: 400px;
     height: 60px;
     margin: 40px 0 10px 40px;
+
     @include for-large-up {
-    width: 200px;
-    height: 60px;
-    margin: 40px 0 0 40px;
+      width: 200px;
+      height: 60px;
+      margin: 40px 0 0 40px;
     }
-}
-.workflow__vertical_line {
-    border-left: 2px dashed #1968FC;
+  }
+
+  &__vertical-line {
+    border-left: 2px dashed #1968fc;
     width: 40px;
     height: 40px;
     margin-left: 59px;
+
     @include for-large-up {
-        border-top: 2px dashed #1968FC;
-        width: 70px;
-        height: 1px;
-        margin: 148px 0 0 0;
+      border-top: 2px dashed #1968fc;
+      width: 70px;
+      height: 1px;
+      margin: 148px 0 0 0;
     }
-}
-.workflow__vertical_line-2 {
-    border-left: 2px dashed #1968FC;
+  }
+
+  &__vertical-line-2 {
+    border-left: 2px dashed #1968fc;
     width: 40px;
     height: 40px;
     margin-left: 59px;
+
     @include for-large-up {
-        border-top: 2px dashed #1968FC;
-        width: 70px;
-        height: 1px;
-        margin: 187px 0 0 0;
+      border-top: 2px dashed #1968fc;
+      width: 70px;
+      height: 1px;
+      margin: 187px 0 0 0;
     }
-}
-.workflow-step__description {
+  }
+
+  &-step__description {
     width: 440px;
     height: 30px;
     font-weight: 400;
@@ -146,23 +168,21 @@
     display: flex;
     align-items: center;
     margin: 0 40px 20px 40px;
+
     @include for-large-up {
-        margin: 20px 40px 20px 40px;
-        width: 240px;
-        height: 60px;
+      margin: 20px 40px 20px 40px;
+      width: 240px;
+      height: 60px;
     }
-}
-.workflow__icon_2 {
-    width: 25px;    
+  }
+
+  &__icon_2 {
+    width: 25px;
     height: 25px;
     margin-left: 500px;
+
     @include for-large-up {
-    margin-left: 300px;
+      margin-left: 300px;
     }
+  }
 }
-
-
-
-
-
-

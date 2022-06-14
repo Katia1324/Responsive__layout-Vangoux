@@ -1,7 +1,11 @@
 .headline {
-    position: relative;
-}
-.headline__title {
+  position: relative;
+
+  @include for-large-up {
+    margin: 0;
+  }
+
+  &__title {
     font-weight: 600;
     font-size: 40px;
     line-height: 60px;
@@ -9,26 +13,28 @@
     width: 480px;
     height: 120px;
     margin: 20px auto;
+
     @include for-large-up {
-        width: 588px;
-        height: 120px;
-        margin: 0;
+      width: 588px;
+      height: 120px;
+      margin: 0;
     }
-}
-.headline__description {
+  }
+  &__description {
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
     align-items: center;
     margin: 20px 80px 40px 80px;
+
     @include for-large-up {
-        margin: 0;
-        margin-top: 20px;
-        width: 600px;
-        height: 80px;
+      margin: 0;
+      margin-top: 20px;
+      width: 600px;
+      height: 80px;
     }
-}
-.headline__upload-btn {
+  }
+  &__upload-btn {
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
@@ -36,84 +42,94 @@
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: #1968FC;
+    color: #ffffff;
+    background: #1968fc;
     box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
     text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
     width: 300px;
     height: 50px;
     margin: 0 260px 80px 80px;
     border: none;
+
     @include for-large-up {
-        margin: 40px 0 160px 0;
+      margin: 40px 0 160px 0;
     }
+  }
 }
 .illustration__mobile {
-    width: 599px;
-    height: 502px;
-    margin: 0 auto;
-    display: flex;
-    @include  for-large-up {
-        position: absolute;
-        top: 50px;
-        left: 521px
-    }
+  width: 599px;
+  height: 502px;
+  margin: 0 auto;
+  display: flex;
+
+  @include for-large-up {
+    position: absolute;
+    top: 50px;
+    left: 521px;
+  }
 }
 .visit__siteblurb {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 40px;
-    display: flex;
-    background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png");
-    width: 640px;
-    height: 180px;
-    margin-top: -62px;
-    margin: auto;
-    @include for-large-up {
-        display: none;
-    }
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  display: flex;
+  background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png');
+  width: 640px;
+  height: 180px;
+  margin-top: -62px;
+  margin: auto;
+
+  @include for-large-up {
+    display: none;
+  }
 }
 .visit__siteblurb_text {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    width: 520px;
-    height: 120px;
-    margin: 30px 60px 30px 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 520px;
+  height: 120px;
+  margin: 30px 60px 30px 60px;
 }
 .reviews {
-    display: block;
-    @include for-large-up {
+  display: block;
+
+  @include for-large-up {
     display: flex;
     width: 1120px;
     height: 280px;
     margin: 0 0 120px 0;
-    }
+  }
 }
 .review {
-    background-color: #FFFFFF;
-    width: 540px;
-    height: 280px;
-    margin: 50px auto;
-    @include for-large-up {
-        margin: 0 40px 0 0;
-    }
-}
-.review__block {
+  background-color: #ffffff;
+  width: 540px;
+  height: 280px;
+  margin: 50px auto;
+  filter: drop-shadow(0px 20px 60px rgba(25, 104, 252, 0.1));
+
+  @include for-large-up {
+    margin: 0 40px 0 0;
+  }
+
+  &__block {
     display: flex;
     position: relative;
-}
-.review__block_photo {
+  }
+
+  &__block_photo {
     width: 100px;
     height: 100px;
     margin: 40px 20px 40px 40px;
-}
-.review__block_text {
+  }
+
+  &__block_text {
     margin: 60px 0;
-}
-.review__block_name {
+  }
+
+  &__block_name {
     width: 280px;
     height: 30px;
     font-weight: 600;
@@ -121,46 +137,52 @@
     line-height: 30px;
     display: flex;
     align-items: center;
-}
-.review__block_job {
+  }
+
+  &__block_job {
     font-weight: 600;
     font-size: 14px;
     line-height: 30px;
     display: flex;
     align-items: center;
-    color: #1967FA;
+    color: #1967fa;
     mix-blend-mode: normal;
     opacity: 0.8;
-}
-.review__illustration {
+  }
+
+  &__illustration {
     position: absolute;
     width: 76px;
     height: 62px;
     top: 40px;
-    left: 440px    
-}
-.rew2 {
-    background-color: #FFFFFF;
-    width: 540px;
-    height: 280px;
-    margin: 50px auto;
-    @include for-large-up {
-        margin: 0;
-    }
-}
-.review__block_2 {
+    left: 440px;
+  }
+
+  &__block_2 {
     display: flex;
     position: relative;
-}
-.review__illustration_2 {
+  }
+
+  &__illustration_2 {
     margin-top: 40px;
     width: 76px;
     height: 62px;
-}
-.review__description {
+  }
+
+  &__description {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     margin: 0 40px 40px 40px;
+  }
 }
+.rew2 {
+  background-color: #ffffff;
+  width: 540px;
+  height: 280px;
+  margin: 50px auto;
 
+  @include for-large-up {
+    margin: 0;
+  }
+}
