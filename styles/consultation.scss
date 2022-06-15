@@ -3,6 +3,7 @@
   background: #1968fc;
   margin: 0;
   padding: 0;
+  padding-left: -130px;
   display: flex;
   flex-direction: column;
 
@@ -13,7 +14,7 @@
     margin: 0;
     position: relative;
   }
-  
+
   &__photo {
     display: none;
 
