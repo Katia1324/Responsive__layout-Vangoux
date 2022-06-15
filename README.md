@@ -1,6 +1,6 @@
 # Responsive__layout-Vangoux
 
-### [Site link](https://eclectic-chimera-6badbc.netlify.app/)
+### [Site link](https://willowy-beignet-ba7bb2.netlify.app)
 
 Layout supports mobile (up-to-640) and desktop (up-to-1024) versions
 
